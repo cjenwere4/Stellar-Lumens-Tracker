@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <link rel="stylesheet" href="options.css">
+  <head>
+    <meta charset="utf-8">
+    <title>Extension Options </title>
+  </head>
+  <script src = "options.js">
+  </script>
+  <body>
+    <div class="main">
+      <!-- Price Alert Option -->
+      <p style="font-size: 25px; font-weight:bold"> Price Alert </p>
+      <p> Alert me when the price hits:
+      <input class="button" id="pricealert" type="text" name="" value=""></p>
+
+      <p style="font-size: 25px; font-weight:bold"> Time Refresh </p>
+      <p> Refresh the price every
+        <input class="button" id="refresh" width="50" type="text" name="" value="">
+        second(s).
+      </p>
+      <p style="font-size: 25px; font-weight:bold"> Currency Display (COMING SOON)</p>
+      <p> I want the price to display in
+        <select class="button" id="currency" name="">
+          <option value="usd">USD ($)</option>
+          <option value="eur">EUR (€)</option>
+          <option value="cny">CNY (¥)</option>
+        </select>
+      </p>
+      <div id="status"></div> <br>
+      <button class="button" id="save">Save Changes</button>
+      <div id="status"></div>
+
+    </div>
+
+    <div id="footer">
+      <h2> Want to support my work? </h2>
+      <p style="font-size: 14px"> XLM: GBATAFP3JBIFGIGID7Z244B3SOXK2JVGO4VSADQB7K5TZ7MT5OVG4UEW </p> <br> <br>
+      <p> Want more features? <a href="https://docs.google.com/forms/d/e/1FAIpQLSeW52e4sUb5slJ51I9Xz_2Yh68_oDsplCRZsamOwra0aVBvLA/viewform">
+        Click here.</a> </p>
+    </div>
+  </body>
+</html>
